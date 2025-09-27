@@ -68,12 +68,56 @@ A **practical penetration-testing approach** was applied to 12 real-world IoT de
 - **Expected findings:** Open/filtered ports, Avahi/mDNS exposure.  
 - **Deliverable:** Per-device Nmap reports.
   <img width="521" height="296" alt="image" src="https://github.com/user-attachments/assets/3b1e3a22-dded-4692-918e-59c25fe9dc9a" />
+  Fig 4.1.1 Scan for open ports
+  <img width="515" height="286" alt="image" src="https://github.com/user-attachments/assets/46bf052d-5d57-4be2-b947-289fadaf3ab8" />
+  Fig 4.1.2 Nmap basic scan
+  <img width="518" height="296" alt="image" src="https://github.com/user-attachments/assets/0fcc7c8e-d2da-42b2-9517-ab7d3388474d" />
+  Fig 4.1.3 Version detection scan
+  <img width="380" height="439" alt="image" src="https://github.com/user-attachments/assets/dbbc1034-260c-412c-81f1-3a3d32e33fb8" />
+  Fig 4.1.4 Scan for known vulnerabilities
+  <img width="576" height="283" alt="image" src="https://github.com/user-attachments/assets/431ccfab-1a65-4fc5-a6b3-19f30964d986" />
+  Fig 4.1.5 Aggressive scan
+<img width="975" height="221" alt="image" src="https://github.com/user-attachments/assets/2b5ab257-8784-46ff-b5e8-b0eee71958d9" />
+<img width="528" height="457" alt="image" src="https://github.com/user-attachments/assets/a726a3ad-d3f9-415e-8de7-5f87146921a2" />
+<img width="975" height="327" alt="image" src="https://github.com/user-attachments/assets/33715e51-4b1c-4a5c-bb3d-7c7119b7f979" />
+<img width="595" height="399" alt="image" src="https://github.com/user-attachments/assets/d96e14a9-2b76-4f10-b384-5068e31069cc" />
+<img width="975" height="175" alt="image" src="https://github.com/user-attachments/assets/ec74ae00-5cd0-40ec-92b3-cc486bab6c78" />
+<img width="986" height="439" alt="image" src="https://github.com/user-attachments/assets/d73522d1-d4ce-4cd3-8504-4dfb2e460370" />
+<img width="975" height="442" alt="image" src="https://github.com/user-attachments/assets/18555e8d-963b-4acf-9f68-4ad44f156b2b" />
+<img width="915" height="480" alt="image" src="https://github.com/user-attachments/assets/f082a20a-6662-407a-9954-d87252a5f83c" />
+<img width="487" height="487" alt="image" src="https://github.com/user-attachments/assets/57dd7ec7-27dc-49fe-bbd2-16f050e7cb9c" />
+<img width="909" height="701" alt="image" src="https://github.com/user-attachments/assets/10591876-c4b4-4a6a-b554-3b01556fd3ce" />
+<img width="975" height="217" alt="image" src="https://github.com/user-attachments/assets/df5cad0d-e549-4499-8858-3043b0a53061" />
+<img width="975" height="319" alt="image" src="https://github.com/user-attachments/assets/bd0f982c-15b6-487f-8afb-0a9ce0556d30" />
+<img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/47ae7746-ef34-4f74-ab66-c146eb903a29" />
+<img width="920" height="438" alt="image" src="https://github.com/user-attachments/assets/2b54499f-1307-49ee-87cb-a968585e1e04" />
+<img width="975" height="252" alt="image" src="https://github.com/user-attachments/assets/40732023-d09e-428b-8419-ed31f07c05ef" />
+<img width="975" height="242" alt="image" src="https://github.com/user-attachments/assets/3130cb52-8734-49a9-84dc-e1ed716aa33f" />
+<img width="975" height="240" alt="image" src="https://github.com/user-attachments/assets/be9c2f05-e42f-4a68-accb-9739276effbc" />
+<img width="975" height="325" alt="image" src="https://github.com/user-attachments/assets/9a720db6-5086-4679-881e-0693bb7a45df" />
+<img width="941" height="491" alt="image" src="https://github.com/user-attachments/assets/f1f4a3c8-83d8-4a17-a379-0ad09a40ea69" />
+
 
 ### 3. Traffic analysis (Wireshark)
 - **Objective:** Capture traffic to detect plaintext transmissions, DNS leaks, cloud endpoints.  
 - **Approach:** Monitor mode / port mirroring, apply protocol filters, capture during boot/pairing/operation.  
 - **Findings:** Some mDNS traffic visible; no HTTP plaintext for most devices.  
-- **Deliverable:** .pcap files and screenshots.  
+- **Deliverable:** .pcap files and screenshots.
+<img width="568" height="319" alt="image" src="https://github.com/user-attachments/assets/29f500fc-04f3-4b2d-b150-803dce6b3cc4" />
+Fig 4.1.6 Wireshark Packet capturing
+<img width="553" height="311" alt="image" src="https://github.com/user-attachments/assets/3fa5fba9-ef96-4ef0-970c-6971756cc6c6" />
+Fig 4.1.7 Wireshark Analysis
+<img width="831" height="414" alt="image" src="https://github.com/user-attachments/assets/22108184-6953-48af-a00a-aca0ad05317f" />
+<img width="644" height="363" alt="image" src="https://github.com/user-attachments/assets/e619b1b0-5248-4f75-9f57-6fd44ab1d6e8" />
+<img width="667" height="429" alt="image" src="https://github.com/user-attachments/assets/516ded08-95f8-4ca6-949c-32edc02107f6" />
+Fig 4.2.8 Capturing SSID and Channel Number Using Wireshark
+<img width="644" height="313" alt="image" src="https://github.com/user-attachments/assets/4ef377c4-759d-45cb-aa05-85282c6f0127" />
+Fig 4.2.9 Deauthentication Attack Traffic Captured in Wireshark
+<img width="975" height="394" alt="image" src="https://github.com/user-attachments/assets/11ec42ed-38a5-473d-8672-10246d5220a4" />
+<img width="975" height="450" alt="image" src="https://github.com/user-attachments/assets/89b55208-9552-4795-b798-1ecd97665ea3" />
+<img width="975" height="477" alt="image" src="https://github.com/user-attachments/assets/8d94dd10-c9a5-4b61-8ff3-15aa51b6e496" />
+<img width="975" height="565" alt="image" src="https://github.com/user-attachments/assets/d5964cd2-99f1-4247-a8dd-ce1282893bc8" />
+
 
 ### 4. Wireless & protocol attacks (Aircrack-ng suite)
 - **Objective:** Test WPA security via handshake capture and dictionary attack.  
@@ -83,13 +127,25 @@ A **practical penetration-testing approach** was applied to 12 real-world IoT de
   - `aireplay-ng --deauth 10 -a <BSSID> -c <CLIENT> wlan0mon`  
   - `aircrack-ng -w rockyou.txt capture.cap`  
 - **Result:** Strong passwords resisted cracking.  
-- **Deliverable:** Handshake captures + logs.  
+- **Deliverable:** Handshake captures + logs.
+
+<img width="484" height="339" alt="image" src="https://github.com/user-attachments/assets/f56f7412-7357-4e70-95d7-eb13bd615c77" />
+Fig 4.1.10 Wireshark Capture Showing Unsuccessful WPA/WPA2 Handshake Crack Attempt
+<img width="484" height="339" alt="image" src="https://github.com/user-attachments/assets/1b145f60-6eef-4b43-85f0-27619e05266a" />
+<img width="458" height="128" alt="image" src="https://github.com/user-attachments/assets/0ad7562a-da08-45ad-b79e-65af217d68e5" />
+<img width="625" height="100" alt="image" src="https://github.com/user-attachments/assets/0ed11c8e-4875-4ff6-84f5-0b7173378d63" />
+
 
 ### 5. Reverse engineering (JADX GUI)
 - **Objective:** Analyze Android companion apps for hardcoded secrets.  
 - **Process:** Load APK → inspect strings, network calls, API keys.  
 - **Findings:** Apps obfuscated; some insecure endpoints possible.  
-- **Deliverable:** Decompiled snippets + recommendations.  
+- **Deliverable:** Decompiled snippets + recommendations.
+
+<img width="476" height="395" alt="image" src="https://github.com/user-attachments/assets/462eeabf-fb7b-45f5-b371-9079c1343779" />
+Fig 4.1.11 JADX GUI Analysis
+<img width="480" height="422" alt="image" src="https://github.com/user-attachments/assets/cceb6f92-e3b0-47d7-bbd4-7fa7364c37d2" />
+Fig 4.1.12 Obfuscated or Unreadable Code in JADX-GUI
 
 ### 6. Firmware acquisition & analysis
 - **Objective:** Extract firmware from vendor/OTA for analysis.  
