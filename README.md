@@ -54,8 +54,8 @@ Previous studies have highlighted critical IoT security concerns:
 A **practical penetration-testing approach** was applied to 12 real-world IoT devices (smart plugs, bulbs, TVs, CCTV, smart speaker, smartwatch). Testing remained ethical and non-destructive.
 
 ### 1. Device selection & information gathering
-- **Kya kiya:** Compiled inventory (manufacturer, model, firmware, MAC, connectivity).  
-- **Kyon zaroori:** Helps identify possible attack vectors.  
+- **What:** Compiled inventory (manufacturer, model, firmware, MAC, connectivity).  
+- **Why:** Helps identify possible attack vectors.  
 - **Deliverable:** Device info table.  
 
 ### 2. Network scanning (Nmap)
